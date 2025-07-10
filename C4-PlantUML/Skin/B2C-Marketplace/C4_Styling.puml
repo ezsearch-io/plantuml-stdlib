@@ -1,0 +1,19 @@
+!define PERSON_BG_COLOR #08427B
+!define SYSTEM_BG_COLOR #1168BD
+!define EXT_SYS_BG_COLOR #666666
+!define WEB_APP_BG_COLOR #428bca
+!define MICROSERVICE_BG_COLOR #5cb85c
+!define DATABASE_BG_COLOR #f0ad4e
+!define CACHE_BG_COLOR #5bc0de
+!define QUEUE_BG_COLOR #d9534f
+!define IDENTITY_BG_COLOR #9932CC
+
+AddElementTag("person_tag", $bgColor=PERSON_BG_COLOR, $fontColor="white", $borderColor="black")
+AddElementTag("system_tag", $bgColor=SYSTEM_BG_COLOR, $fontColor="white", $borderColor="black")
+AddElementTag("external_tag", $bgColor=EXT_SYS_BG_COLOR, $fontColor="white", $borderColor="black")
+AddElementTag("webapp_tag", $bgColor=WEB_APP_BG_COLOR, $fontColor="white", $borderColor="black")
+AddElementTag("microservice_tag", $bgColor=MICROSERVICE_BG_COLOR, $fontColor="white", $borderColor="black")
+AddElementTag("database_tag", $bgColor=DATABASE_BG_COLOR, $fontColor="white", $borderColor="black")
+AddElementTag("cache_tag", $bgColor=CACHE_BG_COLOR, $fontColor="white", $borderColor="black")
+AddElementTag("queue_tag", $bgColor=QUEUE_BG_COLOR, $fontColor="white", $borderColor="black")
+AddElementTag("identity_tag", $bgColor=IDENTITY_BG_COLOR, $fontColor="white", $borderColor="black")
